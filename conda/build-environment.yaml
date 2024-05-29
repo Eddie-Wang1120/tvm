@@ -27,8 +27,8 @@ channels:
 dependencies:
   - python=3.9
   - conda-build
-  - git
-  - llvmdev >=11
+  - clangxx >= 16
+  - llvmdev >= 11
   - numpy
   - pytest
   - cython
@@ -36,4 +36,3 @@ dependencies:
   - bzip2
   - make
   - scipy
-  - pillow
