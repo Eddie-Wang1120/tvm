@@ -24,11 +24,11 @@ channels:
   - conda-forge
 
 # The packages to install to the environment
+# for visual studio 2022
 dependencies:
   - python=3.9
   - conda-build
-  - clangxx >= 16
-  - llvmdev >= 11
+  - llvmdev >= 15
   - numpy
   - pytest
   - cython
